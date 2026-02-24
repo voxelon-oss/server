@@ -1,5 +1,6 @@
-export class GameRoom {
+export class GameRoom extends DurableObject {
   constructor(state, env) {
+    super(state, env);
     this.state = state;
     this.env = env;
     this.sockets = new Map();
