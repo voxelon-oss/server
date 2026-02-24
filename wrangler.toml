@@ -9,6 +9,10 @@ enabled = false
 name = "GAME"
 class_name = "GameRoom"
 
+[[migrations]]
+tag = "v1"
+new_classes = [ "GameRoom" ]
+
 [[kv_namespaces]]
 binding = "USERS"
 id = "placeholder-users-kv"
